@@ -1,2 +1,8 @@
 # telecom-analysis
-This project focuses on analyzing customer behavior and usage patterns for a telecommunications company (ConnectaTel). The objective is to transform raw user and usage data into actionable insights through data cleaning, exploratory analysis, segmentation, and business-oriented recommendations.
+Análisis de datos enfocado en entender el comportamiento de clientes en un contexto de telecomunicaciones. El objetivo fue transformar datos de uso en insights accionables que permitan mejorar la segmentación, la estrategia de precios y la optimización de ingresos.
+Problema de Negocio ConnectaTel necesita entender: • Cómo usan realmente los clientes sus servicios • Qué usuarios generan mayor valor • Si los planes actuales están alineados con el comportamiento real
+Enfoque de Trabajo 1. Limpieza y Preparación de Datos • Validación de calidad de datos y manejo de inconsistencias • Agregación de métricas de uso a nivel usuario • Creación de variables clave: • cant_mensajes • cant_llamadas • cant_minutos_llamada
+2. Análisis Exploratorio (EDA) • Análisis de distribuciones y variabilidad • Identificación de sesgo a la derecha en variables de uso • Detección de outliers mediante IQR, confirmando que representan usuarios intensivos reales (no errores)
+3. Segmentación de Clientes Segmentación por Nivel de Uso Clasificación de usuarios en: • Bajo uso • Uso medio • Alto uso Basado en su comportamiento (llamadas y mensajes) Segmentación Demográfica • Agrupación de usuarios por rangos de edad
+Hallazgos Clave • El uso no es homogéneo → un pequeño grupo concentra la mayor actividad • Fuerte asimetría positiva en minutos de llamada • Los outliers representan usuarios de alto valor, no anomalías • La mayoría de usuarios se concentra en uso medio • La edad tiene bajo impacto en el comportamiento de uso
+Recomendaciones • Diseñar planes escalonados que capturen mejor el comportamiento real • Implementar estrategias de upselling (uso medio → alto)
